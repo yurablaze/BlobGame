@@ -67,9 +67,3 @@ class BlueBlob(Blob):
             self.size += other_blob.size
             other_blob.size = 0
             #del other_blob
-"""
-obj1 = RedBlob()
-obj2 = BlueBlob()
-
-obj1 + obj2
-"""

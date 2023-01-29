@@ -43,15 +43,7 @@ def draw_env(*blobs):
 def main():
     red_blobs = { i:RedBlob() for i in range(100)} 
     blue_blobs = { i:BlueBlob() for i in range(100,200)} 
-    """red_blobs ={1: RedBlob()}
-    blue_blobs = {2: RedBlob()}
-    red_blobs[1].x = 100
-    red_blobs[1].y = 101
-    red_blobs[1].size = 13
-    blue_blobs[2].x = 110
-    blue_blobs[2].y = 100
-    blue_blobs[2].size = 15
-    print({**red_blobs, **blue_blobs})"""
+
 
 
     while 1:
